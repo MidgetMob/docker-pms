@@ -6,3 +6,5 @@ until [ -d "/data" ]; do
 done
 
 chown -R plex:plex /data
+
+tail -f /dev/null
